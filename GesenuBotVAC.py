@@ -161,7 +161,7 @@ class GesenuBotVACClass(Agent):
 
 		def NeverLoseHope(lastA):
 			self.lastAction = self.actions[lastA]
-			if(self.backCount != 4):
+			if(self.backCount != 6):
 				ModifyCounter(0)
 			return self.actions[lastA]
 
